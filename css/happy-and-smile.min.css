@@ -192,8 +192,8 @@ table {
     width: 100%
 }
 
-@media only screen and (max-width: 760px) {
-    td.date { 
+@media (min-width: 800px) {
+    box td.date { 
         display: none; 
     }
 }

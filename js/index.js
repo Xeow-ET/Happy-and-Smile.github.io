@@ -10,7 +10,7 @@ $(function() {
 
 function addRepo(repo, release) {
     $("#repos").append(
-        `<div class="box" style="width: 65%; margin: 2vh auto;">
+        `<div class="box" style="width: 70%; margin: 2vh auto;">
             <a style="padding-top: 1vh;" class="link_repo" href="https://github.com/Happy-and-Smile/${repo}">
                 <img alt="profile" src="resource/svg/github.svg" class="profile_icon">
                 <span>${repo}</span>
