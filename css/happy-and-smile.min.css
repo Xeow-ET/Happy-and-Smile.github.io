@@ -193,13 +193,13 @@ table {
 }
 
 @media (min-width: 800px) {
-    table .td.date {
+    td.date {
         display: table-cell;
         position: absolute;
         right: 250px;
         margin-top: 5px;
-        }
     }
+}
 
 tr {
     width: 100%
