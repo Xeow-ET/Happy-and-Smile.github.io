@@ -192,14 +192,13 @@ table {
     width: 100%
 }
 
-@media (min-width: 800px) {
+@media only screen and (max-width: 760px) {
     box td.date { 
         display: none; 
     }
 }
 
 td.date {
-    display: table-cell;
     position: absolute;
     right: 250px;
     margin-top: 5px;
