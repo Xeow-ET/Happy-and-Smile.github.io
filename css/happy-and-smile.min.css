@@ -203,6 +203,9 @@ table {
 
 td.date {
     display: none;
+    position: absolute;
+    right: 250px;
+    margin-top: 5px;
 }
 
 tr {
