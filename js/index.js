@@ -36,24 +36,6 @@ function addRepo(repo, release) {
 }
 
 function addRelease(name, pre, body, url, table, repo, published) {
-    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        table.append(
-            `<tr class="${pre == true ? "pre-release" : "release"}" project="${repo}">
-                <td class="icon">
-                    <img alt="project page" src="${pre == true ? "resource/svg/pre-release.svg" : "resource/svg/release.svg"}" />
-                </td>
-                <td class="table_label" style="width: auto;">
-                    <a class="link_info" href="${url}">${name}</a>
-                </td>
-                <td>
-                <td>
-                    <a class="inner">
-                        ${body.slice(0, 15)}
-                    </a>
-                </td>
-            </tr>
-        `)
-    } else {
     table.append(
         `<tr class="${pre == true ? "pre-release" : "release"}" project="${repo}">
             <td class="icon">
@@ -75,5 +57,4 @@ function addRelease(name, pre, body, url, table, repo, published) {
             </td>
         </tr>
     `);
-    }
 }
