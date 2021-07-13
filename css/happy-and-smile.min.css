@@ -192,7 +192,7 @@ table {
     width: 100%
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 10px) {
     td.date {
         display: table-cell;
         position: absolute;
