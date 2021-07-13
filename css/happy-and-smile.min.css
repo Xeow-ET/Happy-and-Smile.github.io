@@ -201,6 +201,10 @@ table {
     }
 }
 
+td.date {
+    display: none;
+}
+
 tr {
     width: 100%
 }
