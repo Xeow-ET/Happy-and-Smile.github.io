@@ -192,6 +192,15 @@ table {
     width: 100%
 }
 
+@media (min-width: 800px) {
+    table .td.date {
+        display: table-cell;
+        position: absolute;
+        right: 250px;
+        margin-top: 5px;
+        }
+    }
+
 tr {
     width: 100%
 }
@@ -500,14 +509,4 @@ a.build_child {
 
 .report_link:hover {
     color: var(--report-hover)
-}
-
-
-@media (min-width: 800px) {
-.table .td.date {
-    display: table-cell;
-    position: absolute;
-    right: 250px;
-    margin-top: 5px;
-    }
 }
