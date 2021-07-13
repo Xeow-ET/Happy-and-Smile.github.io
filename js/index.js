@@ -51,11 +51,6 @@ function addRelease(name, pre, body, url, table, repo, published) {
                         ${body.slice(0, 15)}
                     </a>
                 </td>
-                <td class="date">
-                    <a>
-                        ${published}
-                </a>
-                </td>
             </tr>
         `)
     } else {
