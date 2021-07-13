@@ -192,17 +192,8 @@ table {
     width: 100%
 }
 
-@media screen and (min-width: 10px) {
-    td.date {
-        display: table-cell;
-        position: absolute;
-        right: 250px;
-        margin-top: 5px;
-    }
-}
-
 td.date {
-    display: none;
+    display: table-cell;
     position: absolute;
     right: 250px;
     margin-top: 5px;
