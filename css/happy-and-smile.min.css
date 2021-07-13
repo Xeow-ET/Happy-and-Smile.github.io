@@ -502,8 +502,12 @@ a.build_child {
     color: var(--report-hover)
 }
 
-.date {
+
+@media (min-width: 800px) {
+.table .td.date {
+    display: table-cell;
     position: absolute;
     right: 250px;
     margin-top: 5px;
+    }
 }
