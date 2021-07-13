@@ -193,7 +193,7 @@ table {
 }
 
 @media only screen and (max-width: 760px) {
-    box td.date { 
+    td.date { 
         display: none; 
     }
 }
